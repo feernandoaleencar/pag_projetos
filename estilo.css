@@ -1,0 +1,107 @@
+/*Removendo formatação básica*/
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #000000;	
+}
+
+/*
+**** Formação Página ****
+*/
+
+#area-cabecalho {	
+	/*border: 5px solid red;*/
+	padding: 15px;
+	background: #000000;
+	border-top: 0px;
+
+	text-align: center;
+}
+
+#area-logo, #area-menu {
+	/*border: 1px solid red;*/
+	padding: 10px;
+
+}
+#texto-menu {
+	color: #FFFFFF;
+	padding: 5px;
+}
+
+#area-principal {
+	/*border: 1px solid blue;*/
+	width:1250px;
+	margin: 0 auto;
+	padding: 15px 15px 0px 15px;
+
+}
+
+#area-postagens {
+	/*border: 1px solid green;*/
+}
+
+.postagem {
+	padding: 20px 0px 20px 20px;
+	margin-bottom: 20px;
+	background: #FFFFFF;
+}
+
+.texto-postagem {
+	/*border: 1px solid #000000;*/
+	padding-left:300px;
+	padding-bottom: 10px;
+}
+
+img {
+	border: 1px solid #000000;
+	width: 284px;
+	height: 160px;
+	float: left;
+}
+
+#rodape {
+	/*border: 1px solid yellow;*/
+	color: #6e6e6e;
+	text-align: center;
+	background: #000000;
+	padding: 15px;
+}
+
+h1 {
+	color: #009199;
+	font-size: 3em;
+}
+
+
+p {
+	color: #000000;
+	padding: 5px;
+}
+
+h3 {
+	padding:15px 15px 7px 5px;
+
+}
+
+/*
+**** Formação dos links ****
+*/
+
+a {
+	text-decoration: none;
+
+}
+
+a:link, a:visited {
+	color: #009199;
+}
+
+a:hover {
+	text-decoration: underline;
+
+}
