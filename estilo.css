@@ -8,6 +8,8 @@ body {
 	font-size: 1em;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	min-width: 720px;
+	max-width: 1366px;
+	margin: 0 auto;
 }
 
 /*
