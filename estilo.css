@@ -7,6 +7,7 @@
 body {
 	font-size: 1em;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	min-width: 720px;
 }
 
 /*
@@ -36,8 +37,6 @@ body {
 	width:80%;
 	margin: 0 auto;
 	padding: 15px 15px 0px 15px;
-	min-width: 720px;
-
 }
 
 #area-postagens {
